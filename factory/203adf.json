@@ -1,0 +1,9 @@
+{
+	"name": "203adf",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ab4a3901-f214-423c-bc5f-597990ce1c66",
+		"tenantId": "6c43adf9-62fb-4134-b420-1662ba50f97c"
+	}
+}
