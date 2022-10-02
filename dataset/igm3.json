@@ -1,0 +1,260 @@
+{
+	"name": "igm3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "igm3",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AmazonS3Location",
+				"bucketName": "rsram27dp203",
+				"fileName": "EBT_ATV1.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "rodada",
+				"type": "String"
+			},
+			{
+				"name": "posicao_ebt",
+				"type": "String"
+			},
+			{
+				"name": "nota",
+				"type": "String"
+			},
+			{
+				"name": "dt_inicio_avaliacao",
+				"type": "String"
+			},
+			{
+				"name": "dt_fim_avaliacao",
+				"type": "String"
+			},
+			{
+				"name": "uf",
+				"type": "String"
+			},
+			{
+				"name": "nome_uf",
+				"type": "String"
+			},
+			{
+				"name": "municipio",
+				"type": "String"
+			},
+			{
+				"name": "cod_ibge",
+				"type": "String"
+			},
+			{
+				"name": "populacao",
+				"type": "String"
+			},
+			{
+				"name": "site_municipal",
+				"type": "String"
+			},
+			{
+				"name": "site_esic",
+				"type": "String"
+			},
+			{
+				"name": "regulamento_pagina_prefeitura",
+				"type": "String"
+			},
+			{
+				"name": "regulamento_pagina_prefeiturap",
+				"type": "String"
+			},
+			{
+				"name": "regulamentou_lai",
+				"type": "String"
+			},
+			{
+				"name": "regulamentou_laip",
+				"type": "String"
+			},
+			{
+				"name": "tipo_regulamentacao_lai",
+				"type": "String"
+			},
+			{
+				"name": "normativo_lai",
+				"type": "String"
+			},
+			{
+				"name": "dt_normativo_lai",
+				"type": "String"
+			},
+			{
+				"name": "regulamentou_criacao_sic",
+				"type": "String"
+			},
+			{
+				"name": "regulamentou_criacao_sicp",
+				"type": "String"
+			},
+			{
+				"name": "previsao_calassificacao",
+				"type": "String"
+			},
+			{
+				"name": "previsao_calassificacaop",
+				"type": "String"
+			},
+			{
+				"name": "previsao_responsabilizacao_servidor",
+				"type": "String"
+			},
+			{
+				"name": "previsao_responsabilizacao_servidorp",
+				"type": "String"
+			},
+			{
+				"name": "regulamentou_instancia_recursal",
+				"type": "String"
+			},
+			{
+				"name": "regulamentou_instancia_recursalp",
+				"type": "String"
+			},
+			{
+				"name": "pontos_regulamentacao",
+				"type": "String"
+			},
+			{
+				"name": "indicacao_orgao",
+				"type": "String"
+			},
+			{
+				"name": "indicacao_orgaop",
+				"type": "String"
+			},
+			{
+				"name": "indicacao_endereco",
+				"type": "String"
+			},
+			{
+				"name": "indicacao_enderecop",
+				"type": "String"
+			},
+			{
+				"name": "indicacao_telefone",
+				"type": "String"
+			},
+			{
+				"name": "indicacao_telefonep",
+				"type": "String"
+			},
+			{
+				"name": "indicacao_horario",
+				"type": "String"
+			},
+			{
+				"name": "indicacao_horariop",
+				"type": "String"
+			},
+			{
+				"name": "alternativa_sic_eletronico",
+				"type": "String"
+			},
+			{
+				"name": "alternativa_sic_eletronicop",
+				"type": "String"
+			},
+			{
+				"name": "envio_documento_cadastro",
+				"type": "String"
+			},
+			{
+				"name": "assinatura_reconhecida",
+				"type": "String"
+			},
+			{
+				"name": "declaracao_responsabilidade",
+				"type": "String"
+			},
+			{
+				"name": "maioridade",
+				"type": "String"
+			},
+			{
+				"name": "outras_exigencias",
+				"type": "String"
+			},
+			{
+				"name": "nao_exige_identificacaop",
+				"type": "String"
+			},
+			{
+				"name": "possibilidade_acompanhamento",
+				"type": "String"
+			},
+			{
+				"name": "possibilidade_acompanhamentop",
+				"type": "String"
+			},
+			{
+				"name": "resposta_no_prazo_pergunta_1",
+				"type": "String"
+			},
+			{
+				"name": "resposta_no_prazo_pergunta_2",
+				"type": "String"
+			},
+			{
+				"name": "resposta_no_prazo_pergunta_3",
+				"type": "String"
+			},
+			{
+				"name": "resposta_no_prazo_pergunta_4",
+				"type": "String"
+			},
+			{
+				"name": "pontos_prazo_perguntas",
+				"type": "String"
+			},
+			{
+				"name": "respondeu_pergunta_1",
+				"type": "String"
+			},
+			{
+				"name": "respondeu_pergunta_2",
+				"type": "String"
+			},
+			{
+				"name": "respondeu_pergunta_3",
+				"type": "String"
+			},
+			{
+				"name": "respondeu_pergunta_4",
+				"type": "String"
+			},
+			{
+				"name": "pontos_resposta_perguntas",
+				"type": "String"
+			},
+			{
+				"name": "pontos_transp_passiva",
+				"type": "String"
+			},
+			{
+				"name": "total_pontos",
+				"type": "String"
+			},
+			{
+				"name": "nota_1",
+				"type": "String"
+			}
+		]
+	}
+}
